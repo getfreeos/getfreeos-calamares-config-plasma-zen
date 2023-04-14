@@ -123,8 +123,8 @@ navigation: widget
 strings:
     productName:         GetFreeOS
     shortProductName:    GetFreeOS
-    version:             2021.01.1
-    shortVersion:        2020.01.1
+    version:             2023.04.1
+    shortVersion:        2023.04.1
     versionedName:       GetFreeOS
     shortVersionedName:  GetFreeOS
     bootloaderEntryName: GetFreeOS
@@ -175,10 +175,10 @@ images:
 # branding component also ships a stylesheet.qss. Then they are
 # the corresponding CSS attributes of #sidebarApp.
 style:
-   sidebarBackground:    "#292F34"
-   sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#292F34"
-   sidebarTextHighlight: "#D35400"
+   SidebarBackground:    "#292F34"
+   SidebarText:          "#FFFFFF"
+   SidebarTextSelect:    "#292F34"
+   SidebarTextHighlight: "#D35400"
 
 ### SLIDESHOW
 #
@@ -222,6 +222,6 @@ slideshowAPI: 2
 #  - url  : Defines the address of pastebin service to be used.
 #           Takes string as input. Important bits are the host and port,
 #           the scheme is not used.
-#uploadServer :
-#    type :    "fiche"
-#    url :     "http://termbin.com:9999"
+uploadServer :
+    type :    "fiche"
+    url :     "http://termbin.com:9999"
