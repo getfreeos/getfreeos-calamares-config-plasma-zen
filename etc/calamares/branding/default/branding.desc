@@ -8,7 +8,7 @@
 # Additional styling can be done using the stylesheet.qss
 # file, also in the branding directory.
 ---
-componentName:  getfreeos
+componentName:  default
 
 
 ### WELCOME / OVERALL WORDING
@@ -121,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         GetFreeOS
-    shortProductName:    GetFreeOS
-    version:             2023.04.1
-    shortVersion:        2023.04.1
-    versionedName:       GetFreeOS
-    shortVersionedName:  GetFreeOS
-    bootloaderEntryName: GetFreeOS
+    productName:         ALCI
+    shortProductName:    ALCI
+    version:             2023.01.1
+    shortVersion:        2023.01.1
+    versionedName:       ALCI
+    shortVersionedName:  ALCI
+    bootloaderEntryName: Arch
 
 # These images are loaded from the branding module directory.
 #
@@ -161,7 +161,7 @@ images:
     productIcon:         "squid.png"
     productLogo:         "squid.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "getfreeos.png"
+    productWelcome:      "alci.png"
 
 # Colors for text and background components.
 #
@@ -177,8 +177,6 @@ images:
 style:
    SidebarBackground:    "#292F34"
    SidebarText:          "#FFFFFF"
-   SidebarTextSelect:    "#292F34"
-   SidebarTextHighlight: "#D35400"
 
 ### SLIDESHOW
 #
